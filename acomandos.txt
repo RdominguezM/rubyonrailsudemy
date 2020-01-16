@@ -1,0 +1,34 @@
+.to_i: convierte a entero
+.to_s: convierte a string
+.to_f: convierte a float
+.to_b: convierte en bolean
+puts: para imprimir
+ruby: se usa en la consola al iniciar comandos para correr archivos .rb 
+elsif: es el else if
+if: condicion de verdad
+else: en caso de if fallar
+/n/: salto de parrafo
+unless: condicion de falsedad
+while: ciclo
+array: es un conjunto ordenado, cada posicion en la lista es una variable que podemos leer y/o escribir
+=begin=end
+if 5==5
+    puts "hola"
+else
+    puts "adios"
+end
+
+puts "escribe un numero mayor o menor a 100"
+valor = gets.chomp.to_i
+if valor > 100
+puts "" + valor.to_s + " es mayor a 100"
+elsif valor == 100
+puts "te curaste bebe leche"
+elsif valor < 100
+puts " es menor a 100"
+end
+
+datos
+-ruby es sensible a mayusculas
+-no importa que sea o float o int, ruby lo evalua correctamente
+-si la variable if no cumple la condicion, esta seguira leyendo hasta end
